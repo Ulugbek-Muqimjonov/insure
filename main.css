@@ -37,6 +37,9 @@ body {
     padding: 0 20px;
 }
 .site-header {
+    position: relative;
+    z-index: 2;
+    background-color: #fff;    
     display: flex;
     align-items: center;
     padding-top: 21px;
@@ -105,7 +108,6 @@ body {
     /* background-image: url("./images/backgrounfd-line1.svg");  */
     background-position: 1005px -138px;
     background-repeat: no-repeat;
-    overflow: hidden;
 }
 .line-background {
     position: absolute;  
