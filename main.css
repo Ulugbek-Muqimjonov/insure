@@ -172,10 +172,10 @@ body {
 .for-background {
     position: relative;
 }
-.backgroung-line2 {
+.background-line2 {
     position:absolute;
-    top: -467px;
-    left: -670px;
+    top: -503px;
+    left: -717px;
 }
 .second-line {
     margin-bottom: 63px;
@@ -295,8 +295,8 @@ body {
     padding-left: 0;
     list-style: none;
 }
-.application:hover {
-    background-color: #2c2830;
+.app-img:hover {
+  color: #2c2830;
 }
 .footer-bottom {
     padding-top: 48px;
@@ -322,17 +322,25 @@ body {
     letter-spacing: 1.5px;
     color: #2d2641; 
 }
-.item-links:first-child {
+.footer-strong {
+    display: inline-block;
     margin-bottom: 36px;
+    font-family: "Karla", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    color: #837d88;
 }
+.app-img {
+    display: block;
+    color:#837d88;
+} 
 .link {
     text-decoration: none;
     color: #000 ;
 }
-.first-link {
-    text-decoration: none;
-    color: #837d88;
-}   
 .link:hover {
     text-decoration:underline;
 }
